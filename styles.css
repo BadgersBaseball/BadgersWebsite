@@ -15,11 +15,11 @@ html, body {
 
 body {
   display: flex;
-  flex-direction: column;
   margin: 0px;
 }
 
 header {
+  grid-column: 1 / 2;
   display: flex;
   margin: 0px;
 }
@@ -29,6 +29,8 @@ header h1 {
   font-family: "Playball", cursive;
   font-size: 75px;
   color: rgba(127,3,3,255);
+  text-shadow: 3px 3px 1px  rgba(237,186,36,255);
+
   margin: auto;
 }
 
@@ -41,8 +43,10 @@ header h1 {
 }
 
 #GetInTouch {
-  align-self: center;
   text-align: center;
+  /* background-color: white; */
+  width: 75%;
+  margin: auto;
 }
 
 #GetInTouch h3 {
@@ -50,12 +54,15 @@ header h1 {
   font-size: 55px;
   color: rgba(127,3,3,255);
   text-shadow: 3px 3px 1px  rgba(237,186,36,255);
-  
+  margin-bottom: 0;
 }
 
 #Donate {
   align-self: center;
   text-align: center;
+  /* background-color: white; */
+  /* width: 75%; */
+  margin: auto;
 }
 
 #Donate h3 {
@@ -63,9 +70,15 @@ header h1 {
   font-size: 55px;
   color: rgba(127,3,3,255);
   text-shadow: 3px 3px 1px  rgba(237,186,36,255);
+  margin-bottom: 0;
 }
 
 #BadgersLogo {
   display: flex;
   justify-content: center;
+}
+
+footer {
+  /* background-color: white; */
+  /* margin-left: 50%; */
 }
