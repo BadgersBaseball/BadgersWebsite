@@ -42,9 +42,6 @@ header h1 {
   padding-right: 35%;
 }
 
-#MissionStatement p {
-  font: 14px white;
-}
 footer {
   display: flex;
   background-color: white;
@@ -52,7 +49,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-top: 75px;
-  box-shadow: 10px 10px 10px;
+  box-shadow: 10px 10px 9px;
 }
 
 #GetInTouch {
