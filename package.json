@@ -1,0 +1,25 @@
+{
+  "name": "badgers_baseball",
+  "version": "1.0.0",
+  "description": "badgers baseball fundraiser",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BadgersBaseball/BadgersWebsite.git"
+  },
+  "keywords": [
+    "fundraiser",
+    "youth",
+    "baseball",
+    "sports"
+  ],
+  "author": "JtDoe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BadgersBaseball/BadgersWebsite/issues"
+  },
+  "homepage": "https://github.com/BadgersBaseball/BadgersWebsite#readme"
+}
