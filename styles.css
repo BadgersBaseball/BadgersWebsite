@@ -42,6 +42,9 @@ header h1 {
   padding-right: 35%;
 }
 
+#MissionStatement p {
+  font: 14px white;
+}
 footer {
   display: flex;
   background-color: white;
