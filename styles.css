@@ -1,13 +1,13 @@
 html, body {
   margin:0;
   height:100%;
-  overflow:hidden;
+  /* overflow:hidden; */
 }
 
 #bg-container {
-  background-image: url(./images/glove-background.jpg);
+  background-image: url(./images/glove-background-B&W.jpg);
   width:100%;
-  height:100%; 
+  height: 115%;
   box-sizing:border-box;
   background-size: cover;
   background-position: left center;
