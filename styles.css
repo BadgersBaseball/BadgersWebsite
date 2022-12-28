@@ -11,6 +11,7 @@ html, body {
   box-sizing:border-box;
   background-size: cover;
   background-position: left center;
+  text-align: center;
 }
 
 body {
@@ -22,6 +23,9 @@ header {
   grid-column: 1 / 2;
   display: flex;
   margin: 0px;
+  background-color: white;
+  box-shadow: 0px 10px 9px;
+
 }
 
 header h1 {
@@ -40,6 +44,9 @@ header h1 {
   font: 29px;
   padding-left: 35%;
   padding-right: 35%;
+  color: white;
+  margin-bottom: 50px;
+  font-size: larger;
 }
 
 footer {
@@ -87,4 +94,7 @@ footer {
   margin-top: 50px;
 }
 
+#JtDoe {
+  color: greenyellow;
+}
 
