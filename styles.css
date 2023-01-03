@@ -7,7 +7,7 @@ html, body {
 #bg-container {
   background-image: url(./images/glove-background-B&W.jpg);
   width:100%;
-  height: 115%;
+  height: 145%;
   box-sizing:border-box;
   background-size: cover;
   background-position: left center;
@@ -40,7 +40,6 @@ header h1 {
 
 #MissionStatement  {
   margin-top: 75px;
-  text-align: center;
   font: 29px;
   padding-left: 35%;
   padding-right: 35%;
@@ -49,10 +48,14 @@ header h1 {
   font-size: larger;
 }
 
+#MissionStatement p {
+  margin-bottom: 55px;
+}
+
 footer {
   display: flex;
   background-color: white;
-  width: 45%;
+  width: 15%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 75px;
@@ -98,3 +101,22 @@ footer {
   color: greenyellow;
 }
 
+@media screen and (max-width: 576px){
+  body {
+    width: 100%;
+    height: 100%;
+  
+  }
+  header h1 {
+    font-size: 50px;
+  }
+
+  #MissionStatement {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 10px;
+  }
+  #GetInTouch h3 {
+    font-size: 15px;
+  }
+}
