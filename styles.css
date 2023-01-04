@@ -1,44 +1,40 @@
-html, body {
-  margin:0;
-  height:100%;
-  /* overflow:hidden; */
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: scroll;
 }
 
 #bg-container {
   background-image: url(./images/glove-background-B&W.jpg);
-  width:100%;
-  height: 165%;
-  box-sizing:border-box;
+  width: 100%;
+  /* height: 100vh; */
+  box-sizing: border-box;
   background-size: cover;
   background-position: left center;
   text-align: center;
-}
-
-body {
-  display: flex;
-  margin: 0px;
+  background-repeat: no-repeat;
 }
 
 header {
   grid-column: 1 / 2;
   display: flex;
   margin: 0px;
-  background-color: white;
+  background-color: rgb(147, 143, 143);
   box-shadow: 0px 10px 9px;
-
 }
 
 header h1 {
   width: auto;
   font-family: "Playball", cursive;
   font-size: 75px;
-  color: rgba(127,3,3,255);
-  text-shadow: 3px 3px 1px  rgba(237,186,36,255);
+  color: rgba(127, 3, 3, 255);
+  text-shadow: 3px 3px 1px rgba(237, 186, 36, 255);
 
   margin: auto;
 }
 
-#MissionStatement  {
+#MissionStatement {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,9 +42,9 @@ header h1 {
   padding-left: 25%;
   padding-right: 25%;
   color: white;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-size: larger;
-  text-shadow: 2px 2px rgba(127,3,3,255);
+  text-shadow: 2px 2px rgba(127, 3, 3, 255);
 }
 
 #MissionStatement p {
@@ -56,31 +52,33 @@ header h1 {
   font-size: 25px;
 }
 
-#DonationBox {
-/* background-color: green; */
+#DonorBox {
+  max-width: 425px !important;
+  display: block;
+  margin: auto;
 }
-
 
 footer {
   display: flex;
-  background-color: white;
+  /* background-color: white; */
   width: 15%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 75px;
-  box-shadow: 10px 10px 9px;
+  margin-top: 0;
+  /* box-shadow: 10px 10px 9px; */
 }
 
 #GetInTouch {
   text-align: center;
   margin: auto;
+  /* background-color: rgb(147, 143, 143); */
 }
 
 #GetInTouch h3 {
   font-family: "Playball", cursive;
   font-size: 25px;
-  color: rgba(127,3,3,255);
-  text-shadow: 3px 3px 1px  rgba(237,186,36,255);
+  color: rgba(127, 3, 3, 255);
+  text-shadow: 3px 3px 1px rgba(237, 186, 36, 255);
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -94,8 +92,8 @@ footer {
 #Donate h3 {
   font-family: "Playball", cursive;
   font-size: 25px;
-  color: rgba(127,3,3,255);
-  text-shadow: 3px 3px 1px  rgba(237,186,36,255);
+  color: rgba(127, 3, 3, 255);
+  text-shadow: 3px 3px 1px rgba(237, 186, 36, 255);
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -103,18 +101,18 @@ footer {
 #BadgersLogo {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 #JtDoe {
   color: greenyellow;
+  margin-bottom: 0;
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
   body {
     width: 100%;
     height: 100%;
-  
   }
   header h1 {
     font-size: 50px;
