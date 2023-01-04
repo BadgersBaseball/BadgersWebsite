@@ -5,8 +5,9 @@ body {
   overflow: scroll;
 }
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~ Background IMG ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 #bg-container {
-  background-image: url(./images/glove-background-B&W.jpg);
+  background-image: url(./images/glove-background.jpg);
   width: 100%;
   /* height: 100vh; */
   box-sizing: border-box;
@@ -16,11 +17,13 @@ body {
   background-repeat: no-repeat;
 }
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ header ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 header {
   grid-column: 1 / 2;
   display: flex;
   margin: 0px;
-  background-color: rgb(147, 143, 143);
+  background-color: white;
   box-shadow: 0px 10px 9px;
 }
 
@@ -33,6 +36,8 @@ header h1 {
 
   margin: auto;
 }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Body ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #MissionStatement {
   display: flex;
@@ -58,15 +63,20 @@ header h1 {
   margin: auto;
 }
 
-footer {
-  display: flex;
-  /* background-color: white; */
-  width: 15%;
-  margin-left: auto;
-  margin-right: auto;
+/* #Donate {
+  text-align: center;
+  margin: auto;
   margin-top: 0;
-  /* box-shadow: 10px 10px 9px; */
 }
+
+#Donate h3 {
+  font-family: "Playball", cursive;
+  font-size: 25px;
+  color: rgba(127, 3, 3, 255);
+  text-shadow: 3px 3px 1px rgba(237, 186, 36, 255);
+  margin-bottom: 0;
+  margin-top: 0;
+} */
 
 #GetInTouch {
   text-align: center;
@@ -83,20 +93,22 @@ footer {
   margin-top: 0;
 }
 
-#Donate {
-  text-align: center;
-  margin: auto;
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+footer {
+  display: flex;
+  /* background-color: white; */
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0;
+  /* box-shadow: 10px 10px 9px; */
 }
 
-#Donate h3 {
-  font-family: "Playball", cursive;
-  font-size: 25px;
-  color: rgba(127, 3, 3, 255);
-  text-shadow: 3px 3px 1px rgba(237, 186, 36, 255);
-  margin-bottom: 0;
-  margin-top: 0;
-}
+
+
+
 
 #BadgersLogo {
   display: flex;
@@ -108,6 +120,8 @@ footer {
   color: greenyellow;
   margin-bottom: 0;
 }
+
+/*~~~~~~~~~~~~~~~~~~~~~~ Media Query ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 @media screen and (max-width: 576px) {
   body {
