@@ -158,14 +158,6 @@ footer {
     font-size: 15px;
   }
 
-  body {
-    font-family: "Bebas";
-    text-align: center;
-    max-width: 100%;
-    overflow-x: hidden;
-    padding: 0;
-    margin: 0;
-  }
   header h1 {
     text-align: right;
     font-size: 40px;
