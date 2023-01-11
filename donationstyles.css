@@ -89,6 +89,13 @@ header h1 {
   /* margin-bottom: 55px; */
   font-size: 25px;
   background-color: white;
+  border-style: solid;
+  
+}
+
+#MissionStatement h2 {
+  background-color: white;
+  border-style: solid;
 }
 
 
