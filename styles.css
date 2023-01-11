@@ -84,6 +84,7 @@ header h1 {
 #MissionStatement h2 {
   border-style: solid;
   background-color: white;
+  font-size: 40px;
 }
 
 #MissionStatement p {
@@ -91,6 +92,7 @@ header h1 {
   font-size: 25px;
   background-color: white;
   border-style: solid;
+  font-weight: bold;
 }
 
 #DonorBox {
