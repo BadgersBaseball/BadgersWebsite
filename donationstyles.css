@@ -117,6 +117,10 @@ footer {
   margin-left: 10px;
 }
 
+#youtube {
+  margin-left: 20px;
+}
+
 /*~~~~~~~~~~~~~~~~~~~~~~ Media Query ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 @media screen and (max-width: 813px) {
