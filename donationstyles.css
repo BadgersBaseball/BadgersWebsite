@@ -71,22 +71,43 @@ header h1 {
   max-width: 425px !important;
   display: block;
   margin: auto;
-  margin-top: 95px;
+  /* margin-top: 95px; */
 }
+#MissionStatement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 75px;
+  padding-left: 28%;
+  padding-right: 28%;
+  color: rgba(127, 3, 3, 255);
+  margin-bottom: 20px;
+  font-size: larger;
+}
+
+#MissionStatement p {
+  /* margin-bottom: 55px; */
+  font-size: 25px;
+  background-color: white;
+}
+
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 footer {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   text-align: center;
   bottom: 0;
   height: 2.5rem;
 }
 
-#JtDoe {
-  color: maroon;
-  margin-bottom: 0;
+#email {
+  margin-right: 10px;
+}
+
+#instagram {
+  margin-left: 10px;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~ Media Query ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

@@ -117,10 +117,14 @@ footer {
   height: 2.5rem;
 }
 
-#JtDoe {
-  color: maroon;
-  margin-bottom: 0;
+#email {
+  margin-right: 10px;
 }
+
+#instagram {
+  margin-left: 10px;
+}
+
 
 /*~~~~~~~~~~~~~~~~~~~~~~ Media Query ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
