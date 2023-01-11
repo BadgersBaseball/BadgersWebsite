@@ -3,22 +3,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badgers Baseball WA</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Playball&display=swap"
       rel="stylesheet"
     />
-    <title>Badgers Baseball WA</title>
-    <link rel="icon" type="image/png" href="./images/favicon-32x32.png" sizes="32x32" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./images/favicon-32x32.png"
+      sizes="32x32"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div id="bg-container">
       <header>
-        <img src="./images/BadgersHatClean.png" height="90px" />
         <h1>BADGERS BASEBALL</h1>
-        <img src="./images/BadgersHatClean.png" height="90px" />
+        <nav id="hamnav">
+          <label for="hamburger">&#9776;</label>
+          <input type="checkbox" id="hamburger" />
+          <div id="hamitems">
+            <a href="./index.html">Home</a>
+            <a href="./donations.html">Donations</a>
+            <a href="./contact.html">Coach Bios (Coming Soon!)</a>
+            <a href="#">Roster (Coming Soon!)</a>
+          </div>
+        </nav>
       </header>
       <div id="MissionStatement">
         <p>
@@ -33,52 +46,10 @@
           players how to compete, how to handle adversity and building life
           character through sport.
         </p>
-        
-        <script
-          src="https://donorbox.org/widget.js"
-          paypalExpress="false"
-        ></script>
-        <div id="DonationBox">
-        <iframe id="DonorBox"
-          src="https://donorbox.org/embed/badgers-baseball-wa"
-          name="donorbox"
-          allowpaymentrequest="allowpaymentrequest"
-          margin="auto"
-          seamless="seamless"
-          frameborder="0"
-          scrolling="no"
-          height="900px"
-          width="100%"
-          style="
-            max-width: 500px;
-            min-width: 250px;
-            max-height: none !important;
-          "
-        ></iframe>
-        </div>
       </div>
       <footer>
-        <div id="GetInTouch">
-          <!-- <h3>EMAIL Us</h3> -->
-          <a href="mailto:Badgersbaseballwa@gmail.com">
-            <img src="./images/Email.png" height="64px"
-          /></a>
-        </div>
-        <!-- <div id="Donate">
-          <h3>DONATE</h3>
-          <a href="https://account.venmo.com/u/badgersbaseballwa">
-            <img src="./images/Venmo.png"
-          /></a>
-        </div> -->
+        <p id="JtDoe">Website by JtDoe6@gmail.com</p>
       </footer>
-      <div id="BadgersLogo">
-        <img
-          title="BadgersLogo"
-          src="./images/BadgersLogoClean.png"
-          width="200"
-        />
-      </div>
-      <p id="JtDoe">Website by JtDoe6@gmail.com</p>
     </div>
   </body>
 </html>

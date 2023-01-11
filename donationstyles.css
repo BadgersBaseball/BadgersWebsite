@@ -1,28 +1,12 @@
 html,
 body {
   margin: 0;
-  height: 100%;
+  height: 100vh;
   overflow: scroll;
   scroll-behavior: smooth;
 }
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~ Background IMG ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-#bg-container {
-  position: relative;
-  background-image: url(./images/BadgersLogoCleanSmall.png);
-  vertical-align: top;
-  width: 100%;
-  min-height: 100vh;
-  box-sizing: border-box;
-  background-size: 25%;
-  background-position: 0%;
-  text-align: center;
-  background-repeat: repeat;
-  overflow: auto;
-}
-
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ header ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-
+/*~~~~~~~~~~~~~ Header ~~~~~~~~~~~~~~~~~~~~~~ */
 header {
   grid-column: 1 / 2;
   display: flex;
@@ -67,44 +51,27 @@ header h1 {
   display: none;
 }
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~ Background IMG ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#bg-container {
+  background-image: url(./images/BadgersLogoCleanSmall.png);
+  vertical-align: top;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-size: 25%;
+  background-position: 0%;
+  text-align: center;
+  background-repeat: repeat;
+  overflow: auto;
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Body ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-#MissionStatement {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 75px;
-  padding-left: 28%;
-  padding-right: 28%;
-  color: rgba(127, 3, 3, 255);
-  margin-bottom: 20px;
-  font-size: larger;
-}
-
-#MissionStatement p {
-  margin-bottom: 55px;
-  font-size: 25px;
-  background-color: white;
-}
 
 #DonorBox {
   max-width: 425px !important;
   display: block;
   margin: auto;
-}
-
-#GetInTouch {
-  text-align: center;
-  margin: auto;
-}
-
-#GetInTouch h3 {
-  font-family: "Playball", cursive;
-  font-size: 25px;
-  color: rgba(127, 3, 3, 255);
-  text-shadow: 3px 3px 1px rgba(237, 186, 36, 255);
-  margin-bottom: 0;
-  margin-top: 0;
+  margin-top: 95px;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
