@@ -8,7 +8,6 @@ body {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~ Background IMG ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 #bg-container {
-  position: relative;
   background-image: url(./images/BadgersLogoCleanSmall.png);
   vertical-align: top;
   width: 100%;
@@ -95,26 +94,6 @@ header h1 {
   background-color: white;
   border-style: solid;
   font-weight: bold;
-}
-
-#DonorBox {
-  max-width: 425px !important;
-  display: block;
-  margin: auto;
-}
-
-#GetInTouch {
-  text-align: center;
-  margin: auto;
-}
-
-#GetInTouch h3 {
-  font-family: "Playball", cursive;
-  font-size: 25px;
-  color: rgba(127, 3, 3, 255);
-  text-shadow: 3px 3px 1px rgba(237, 186, 36, 255);
-  margin-bottom: 0;
-  margin-top: 0;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
