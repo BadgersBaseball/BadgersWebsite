@@ -8,6 +8,8 @@ body {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~ Background IMG ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 #bg-container {
+  display: flex;
+  flex-direction: column;
   background-image: url(./images/BadgersLogoCleanSmall.png);
   vertical-align: top;
   width: 100%;
@@ -99,10 +101,12 @@ header h1 {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 footer {
+  margin-top: auto;
   width: 100%;
   text-align: center;
   bottom: 0;
   height: 2.5rem;
+  flex-shrink: 0;
 }
 
 #email {

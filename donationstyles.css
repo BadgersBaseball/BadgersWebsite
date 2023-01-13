@@ -56,6 +56,8 @@ header h1 {
 /*~~~~~~~~~~~~~~~~~~~~~~~~ Background IMG ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #bg-container {
+  display: flex;
+  flex-direction: column;
   background-image: url(./images/BadgersLogoCleanSmall.png);
   vertical-align: top;
   width: 100%;
@@ -73,7 +75,6 @@ header h1 {
   max-width: 425px !important;
   display: block;
   margin: auto;
-  /* margin-top: 95px; */
 }
 #MissionStatement {
   display: flex;
