@@ -4,6 +4,7 @@ body {
   height: 100vh;
   overflow: scroll;
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~ Background IMG ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -20,6 +21,7 @@ body {
   text-align: center;
   background-repeat: repeat;
   overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ header ~~~~~~~~~~~~~~~~~~~~~~~~~~*/
