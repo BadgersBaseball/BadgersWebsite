@@ -53,6 +53,7 @@ header h1 {
 #hamitems {
   display: flex;
 }
+
 #hamitems a {
   flex-grow: 1;
   flex-basis: 0;
@@ -111,7 +112,7 @@ footer {
 }
 
 footer a {
-display: contents;
+  display: contents;
 }
 
 #email {
