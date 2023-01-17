@@ -110,8 +110,13 @@ footer {
   -webkit-overflow-scrolling: touch;
 }
 
+footer a {
+display: contents;
+}
+
 #email {
   margin-right: 10px;
+  background: none;
 }
 
 #instagram {
@@ -121,6 +126,7 @@ footer {
 
 #youtube {
   margin-left: 10px;
+  background: none;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~ Media Query ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

@@ -113,6 +113,10 @@ footer {
   -webkit-overflow-scrolling: touch;
 }
 
+footer a {
+  display: contents;
+}
+
 #email {
   margin-right: 10px;
 }
