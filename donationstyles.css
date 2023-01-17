@@ -1,8 +1,8 @@
 html,
 body {
   margin: 0;
-  height: 100vh;
-  overflow: scroll;
+  /* height: 100vh; */
+  /* overflow: scroll; */
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 }
@@ -69,7 +69,7 @@ header h1 {
   background-position: 0%;
   text-align: center;
   background-repeat: repeat;
-  overflow: auto;
+  /* overflow: auto; */
   -webkit-overflow-scrolling: touch;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Body ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
