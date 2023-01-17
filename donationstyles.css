@@ -1,8 +1,6 @@
 html,
 body {
   margin: 0;
-  /* height: 100vh; */
-  /* overflow: scroll; */
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 }
@@ -69,7 +67,6 @@ header h1 {
   background-position: 0%;
   text-align: center;
   background-repeat: repeat;
-  /* overflow: auto; */
   -webkit-overflow-scrolling: touch;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Body ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -122,10 +119,11 @@ footer {
 
 #instagram {
   margin-left: 10px;
+  margin-right: 10px;
 }
 
 #youtube {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~ Media Query ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
