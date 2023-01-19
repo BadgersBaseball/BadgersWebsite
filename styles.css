@@ -94,6 +94,7 @@ header h1 {
 
 #MissionStatement p {
   margin-bottom: 55px;
+  margin-top: 5px;
   font-size: 25px;
   background-color: white;
   font-weight: bold;
