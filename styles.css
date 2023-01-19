@@ -55,13 +55,16 @@ header h1 {
 }
 
 #hamitems a {
+  font-family: 'Palanquin Dark', sans-serif;
   flex-grow: 1;
   flex-basis: 0;
   padding: 10px;
   color: white;
   text-decoration: none;
   text-align: center;
+  text-transform: uppercase;
 }
+
 #hamitems a:hover {
   background: #af0d0d;
 }
@@ -86,6 +89,8 @@ header h1 {
 }
 
 #MissionStatement h2 {
+  font-family: 'Palanquin Dark', sans-serif;
+  text-transform: uppercase;
   background-color: white;
   font-size: 40px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -93,6 +98,7 @@ header h1 {
 }
 
 #MissionStatement p {
+  font-family: 'Palanquin Dark', sans-serif;
   margin-bottom: 55px;
   margin-top: 5px;
   font-size: 25px;
