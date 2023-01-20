@@ -84,8 +84,8 @@ header h1 {
   flex-direction: column;
   justify-content: center;
   margin-top: 20px;
-  padding-left: 28%;
-  padding-right: 28%;
+  padding-left: 25%;
+  padding-right: 25%;
   color: rgba(127, 3, 3, 255);
   margin-bottom: 20px;
   font-size: larger;
@@ -93,7 +93,7 @@ header h1 {
 
 #MissionStatement p {
   font-family: 'Palanquin Dark', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   background-color: white;
   font-weight: bold;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
