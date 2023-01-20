@@ -48,6 +48,7 @@ header h1 {
 #hamnav {
   width: 100%;
   background: rgba(127, 3, 3, 255);
+  text-align: center;
 }
 
 #hamitems {
