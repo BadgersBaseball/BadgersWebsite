@@ -72,6 +72,7 @@ header h1 {
   text-align: center;
   background-repeat: repeat;
   -webkit-overflow-scrolling: touch;
+  background-repeat: space;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Body ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
