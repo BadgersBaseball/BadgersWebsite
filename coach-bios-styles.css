@@ -79,9 +79,12 @@ header h1 {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Body ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #CoachBios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-top: 20px;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 25%;
+  padding-right: 25%;
   color: rgba(127, 3, 3, 255);
   margin-bottom: 20px;
   font-size: larger;
@@ -94,24 +97,18 @@ header h1 {
   font-size: 40px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 #CoachBios p {
-  margin-top: 50px;
+  margin-top: 25px;
   font-family: 'Palanquin Dark', sans-serif;
   font-size: 15px;
   background-color: white;
   font-weight: bold;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  padding: 10px;
-}
-
-#CoachGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 5% 95%;
-  column-gap: 25px;
 }
 
 #CoachBios h3 {
@@ -122,7 +119,45 @@ header h1 {
   font-size: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 25px;
 }
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: white;
+}
+
+#readMoreButton {
+  font-family: 'Palanquin Dark', sans-serif;
+  text-transform: uppercase;
+  background: rgba(127, 3, 3, 255);
+  color: white;
+  margin-bottom: 50px;
+  width: fit-content;
+  margin: 0 auto;
+  border: none;
+}
+
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 

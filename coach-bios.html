@@ -42,54 +42,63 @@
     </header>
     <div id="bg-container">
       <div id="CoachBios">
-        <h2>Our Coaches</h2>
-        <div id="CoachGrid">
-          <div id="Coach1">
-          <h3>Kevin</h3>
-          <p>
-            Kevin Owens is entering his 15th year in total coaching. Kevin has
-            coached levels ranging from 8U to the Junior College Level. At the
-            age of 19, he got his start during his college baseball days as an
-            Assistant Summer Baseball Coach for Narrows Baseball Academy 18U. He
-            was also an Assistant Coach in Augusta, GA for the Augusta Barons
-            18U during his latter years of college. He was a Volunteer Assistant
-            in year 1 and in year 2 named Head Assistant Baseball Coach at
-            Everett Community College between 2011 and 2012. During his two
-            years he helped guide the Everett Trojans in back to back NWAAC
-            Regional Tournament Appearances including a final 4 finish in 2012.
-            In 2011 and 2012 both teams finished as Co-Champions of the NWAC
-            North Division. During that time he was named the Academy hitting
-            Instructor for Laces Baseball out of Everett running the offense for
-            teams ranging from 13 to 18. After a 3 year coaching break where
-            Kevin focussed on his soon to be family, he decided to get back into
-            the coaching world being hired as Head Varsity Baseball Coach for
-            Peninsula High School from 2016-2018. There are a handful of players
-            from those years still active in college baseball today. Choosing to
-            focus on family again after 2018, Kevin began working with his
-            children Hudson and Wesley and their baseball lives. In 2020 Kevin
-            and his children moved to Puyallup coaching Little League Baseball
-            for which he's found more passion than he ever thought possible.
-            Kevin looks forward to years of helping young kids grow their lives
-            through the game of baseball. His goal is to give players a
-            compeititive Travel Ball experience while making it affordable for
-            families.
-          </p>
-          </div>
-          <div id="Coach2">
-          <h3>Mike</h3>
-          <p>
-            Shags balls sometimes.
-            <br>
-            <br>
-            <br>
-            Throws BP when his shoulder isn't broken.
-            <br>
-            <br>
-            <br>
-            Thats literally it.
-          </p>
-          </div>
-        </div>
+        <h2>Our Coach</h2>
+        <h3>Kevin Owens</h3>
+        <p>
+          Kevin Owens is entering his 15th year in total coaching. Kevin has
+          coached levels ranging from 8U to the Junior College Level. At the age
+          of 19, he got his start during his college baseball days as an
+          Assistant Summer Baseball Coach for Narrows Baseball Academy 18U. He
+          was also an Assistant Coach in Augusta, GA for the Augusta Barons 18U
+          during his latter years of college. He was a Volunteer Assistant in
+          year 1 and in year 2 named Head Assistant Baseball Coach at Everett
+          Community College between 2011 and 2012. During his two years he
+          helped guide the Everett Trojans in back to back NWAAC Regional
+          Tournament Appearances including a final 4 finish in 2012. In 2011 and
+          2012 both teams finished as Co-Champions of the NWAC North Division.
+          During that time he was named the Academy hitting Instructor for Laces
+          Baseball out of Everett running the offense for teams ranging from 13
+          to 18. After a 3 year coaching break where Kevin focussed on his soon
+          to be family, he decided to get back into the coaching world being
+          hired as Head Varsity Baseball Coach for Peninsula High School from
+          2016-2018. There are a handful of players from those years still
+          active in college baseball today. Choosing to focus on family again
+          after 2018, Kevin began working with his children Hudson and Wesley
+          and their baseball lives. In 2020 Kevin and his children moved to
+          Puyallup coaching Little League Baseball for which he's found more
+          passion than he ever thought possible. Kevin looks forward to years of
+          helping young kids grow their lives through the game of baseball. His
+          goal is to give players a compeititive Travel Ball experience while
+          making it affordable for families.
+        </p>
+        <button id="readMoreButton">Read More</button>
+        <p id="hiddenText" style="display: none">
+          Player Credentials: During his playing career Kevin was named Varsity
+          Team MVP 3 times and Gold Glove once at Gig Harbor High School. He was
+          elected All-League Catcher and selected to the All-State Showcase
+          Series in 2004. He was a member of the NWAC Academic All League in
+          2006 at Everett Community College. During that year he was able to
+          compete in the NWAC Regional Tournament going 9 of 14 at the plate
+          during the tourney. In 2008, Kevin was named All Peach Belt and All
+          Southeast Conference Gold Glove out of Augusta State University. Kevin
+          was able to gain a Bachelors in Science at Augusta State University in
+          the Field of Health and Physical Education.
+        </p>
+
+        <script>
+          const readMoreButton = document.getElementById("readMoreButton");
+          const hiddenText = document.getElementById("hiddenText");
+
+          readMoreButton.addEventListener("click", function () {
+            if (hiddenText.style.display === "none") {
+              hiddenText.style.display = "block";
+              readMoreButton.textContent = "Read Less";
+            } else {
+              hiddenText.style.display = "none";
+              readMoreButton.textContent = "Read More";
+            }
+          });
+        </script>
       </div>
       <footer>
         <a href="mailto:badgersbaseballwa@gmail.com">
